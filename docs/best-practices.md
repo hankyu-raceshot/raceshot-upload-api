@@ -52,7 +52,7 @@ async function uploadWithRetry(imageFile, eventId, bibNumber, location, price, m
   while (retries < maxRetries) {
     try {
       // 發送上傳請求
-      const response = await fetch('https://api.raceshot.com/api/photographer/upload', {
+      const response = await fetch('https://api.raceshot.app/api/photographer/upload', {
         method: 'POST',
         headers: { 'Authorization': `Bearer ${apiToken}` },
         body: formData
@@ -107,7 +107,7 @@ def upload_with_retry(image_path, event_id, bib_number, location, price, api_tok
             headers = {"Authorization": f"Bearer {api_token}"}
             
             response = requests.post(
-                "https://api.raceshot.com/api/photographer/upload",
+                "https://api.raceshot.app/api/photographer/upload",
                 headers=headers,
                 files=files,
                 data=data

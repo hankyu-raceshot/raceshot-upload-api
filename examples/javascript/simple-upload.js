@@ -16,7 +16,7 @@ const config = {
   apiToken: 'YOUR_API_TOKEN',
   
   // API 端點
-  apiUrl: 'https://api.raceshot.com/api/photographer/upload',
+  apiUrl: 'https://api.raceshot.app/api/photographer/upload',
   
   // 替換為您要上傳的圖片路徑
   imagePath: path.join(__dirname, '../../assets/sample-image.jpg'),

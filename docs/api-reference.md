@@ -17,7 +17,7 @@
 ### 獲取 Token
 
 1. 登入運動拍檔 RaceShot 攝影師中心
-2. 前往「[API Token 管理](https://raceshot.com/photographer/api-token)」頁面
+2. 前往「[API Token 管理](https://raceshot.app/photographer/api-token)」頁面
 3. 設定 Token 有效期並生成 Token
 
 ### 使用 Token
@@ -32,7 +32,7 @@ Authorization: Bearer YOUR_API_TOKEN
 
 ### 上傳照片
 
-**端點**：`POST https://api.raceshot.com/api/photographer/upload`
+**端點**：`POST https://api.raceshot.app/api/photographer/upload`
 
 **Content-Type**：`multipart/form-data`
 
@@ -49,7 +49,7 @@ Authorization: Bearer YOUR_API_TOKEN
 **請求範例**：
 
 ```
-POST https://api.raceshot.com/api/photographer/upload HTTP/1.1
+POST https://api.raceshot.app/api/photographer/upload HTTP/1.1
 Host: api.raceshot.com
 Authorization: Bearer YOUR_API_TOKEN
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
@@ -124,7 +124,7 @@ API 使用標準的 HTTP 狀態碼表示請求結果。常見的錯誤碼包括�
 
 ## 限制說明
 
-- 檔案大小上限：20MB
+- 檔案大小上限：15MB
 - 支援的圖片格式：JPEG、PNG
 - 每分鐘請求數上限：60 次
 - Token 有效期：最長 365 天

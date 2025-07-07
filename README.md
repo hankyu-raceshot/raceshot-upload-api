@@ -22,7 +22,7 @@
 
 ### 1. 獲取 API Token
 
-在使用 API 之前，您需要先獲取 API Token。請登入運動拍檔 RaceShot 攝影師中心，在「[API Token 管理](https://raceshot.com/photographer/api-token)」頁面生成您的 Token。
+在使用 API 之前，您需要先獲取 API Token。請登入運動拍檔 RaceShot 攝影師中心，在「[API Token 管理](https://raceshot.app/photographer/api-token)」頁面生成您的 Token。
 
 **重要提示**：API Token 包含您的身份資訊，請妥善保管，不要分享給他人。
 

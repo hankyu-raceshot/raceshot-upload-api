@@ -45,7 +45,7 @@ namespace RaceShotApiExample
             _bibNumber = bibNumber ?? "unknown";
             _location = location ?? throw new ArgumentNullException(nameof(location));
             _price = price;
-            _apiUrl = "https://api.raceshot.com/api/photographer/upload";
+            _apiUrl = "https://api.raceshot.app/api/photographer/upload";
 
             // 驗證價格
             if (price < 60)

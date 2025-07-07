@@ -38,7 +38,7 @@ public class SimpleUpload {
      */
     public SimpleUpload(String apiToken, String imagePath, String eventId, String bibNumber, String location, int price) {
         this.apiToken = apiToken;
-        this.apiUrl = "https://api.raceshot.com/api/photographer/upload";
+        this.apiUrl = "https://api.raceshot.app/api/photographer/upload";
         this.imagePath = Paths.get(imagePath);
         this.eventId = eventId;
         this.bibNumber = bibNumber != null ? bibNumber : "unknown";

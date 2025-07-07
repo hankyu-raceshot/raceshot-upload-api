@@ -11,7 +11,7 @@ $config = [
     'api_token' => 'YOUR_API_TOKEN',
     
     // API 端點
-    'api_url' => 'https://api.raceshot.com/api/photographer/upload',
+    'api_url' => 'https://api.raceshot.app/api/photographer/upload',
     
     // 替換為您要上傳的圖片路徑
     'image_path' => __DIR__ . '/../../assets/sample-image.jpg',

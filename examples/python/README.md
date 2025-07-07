@@ -17,7 +17,7 @@
 import requests
 
 # API 配置
-api_url = 'https://api.raceshot.com/api/photographer/upload'
+api_url = 'https://api.raceshot.app/api/photographer/upload'
 api_token = 'YOUR_API_TOKEN'
 
 # 準備表單數據
